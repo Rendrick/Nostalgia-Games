@@ -1,0 +1,95 @@
+<title>CONTATO</title>
+
+<HEAD
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="stylecontato.css" rel="stylesheet">
+</HEAD>
+<body>
+
+	<nav class="cabeçalho"> <!-- INICIO CABEÇALHO, MENU SUPERIOR-->
+			<div id="inicio"> <img src="imagens/logo.png"> </div>
+			<ul id="menu">
+					<li><a href="index.html" class="menutext"> HOME</a></li>
+					<li><a href="#" class="menutext"> JOGOS</a></li>
+					<li><a href="#" class="menutext"> LOGIN</a></li>
+					<li><a href="contato.html" class="menutext"> CONTATO</a></li>
+			</ul>
+		</nav>
+	<!-- jQuery (necessário para os plugins Javascript Bootstrap) -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+<div class="container">
+
+</div>
+<form id="formExemplo" data-toggle="validator" role="form">
+  <div class="form-group">
+    <label for="textNome" class="control-label">Nome</label>
+    <input id="textNome" class="form-control" placeholder="Digite seu Nome..." type="text">
+  </div>
+  <div class="form-group">
+    <label for="textNome" class="control-label">Qual jogo você gostaria que tivesse no site:</label>
+    <input id="textNome" class="form-control" placeholder="..." type="text">
+  </div>
+  <div class="form-group">
+    <label for="textNome" class="control-label">Porque?</label>
+    <input id="textNome" class="form-control" placeholder="..." type="text">
+  </div>
+  <div class="form-group">
+    <label for="textNome" class="control-label"> Sugestão! </label>
+    <input id="textNome" class="form-control" placeholder="..." type="text">
+  </div>
+  <div class="form-group">
+    <label for="inputEmail" class="control-label">Email</label>
+    <input id="inputEmail" class="form-control" placeholder="Digite seu E-mail" type="email">
+  </div>
+<div style="display:none;">
+    <input type="text" required name="txtstart" style="width:150px" value="">
+</div>
+<script type="text/javascript">
+var mainDivName = 'eventDates';
+
+function addEvent()
+{
+var ni = document.getElementById(mainDivName);
+
+var numi = document.getElementById('theValue');
+var num = (document.getElementById("theValue").value -1)+ 2;
+numi.value = num;
+
+var divIdName = "eventDate"+num+"Div";
+var newdiv = document.createElement('div');
+newdiv.setAttribute("id",divIdName);
+newdiv.innerHTML = "<table><tr><td></td><td width=80><input type=\"text\" name=\"q1\" size=\"7\"></td></tr></table>Linha "+num+" adicionada! <a href=\"#\" onclick=\"removeEvent(\'"+divIdName+"\')\">Remover linha</a>";
+
+
+ni.appendChild(newdiv);
+
+}
+
+function removeEvent(divNum)
+{
+var d = document.getElementById(mainDivName);
+var olddiv = document.getElementById(divNum);
+d.removeChild(olddiv);
+}
+</script>
+
+</head>
+
+<body><form>
+  <input type="hidden" value="0" id="theValue" />
+  <p><a href="#.php" onClick="addEvent();">Adicionar Linhas</a></p>
+
+
+  <div id="eventDates"> </div></form>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+</body>

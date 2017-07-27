@@ -1,0 +1,170 @@
+body {
+    margin:0;
+	  padding:0;
+	  background:black;
+}
+/*CHAMA ID CORPO*/
+ #corpo  {
+  overflow: hidden; /*CRESCE A PAGINA DE ACORDO COM O QUE VAI COLOCANDO*/
+ }
+ .cabeçalho{ /* TAMANHO DACABEÇALHO E AJUSTE */
+   width: 1018px;
+   margin:10px auto;
+   overflow: hidden;
+ }
+#inicio, #menu {
+   float: left;/* AJUSTE, um do lado do outro do menu superior e 400 a partir da logo */
+   width: 400px;
+ }
+ #inicio{
+    margin-right: 190px; /* AJUSTE, A LOGO EMPURRA O MENU SUPERIOR */
+    margin: top;
+ }
+ #inicio a img{
+   border: 0;
+ }
+
+#menu li{
+  float: left; padding: 15px;
+}
+#menu li:hover{
+  background: #171717;
+}
+nav ul {
+		list-style:none; <!-- RETIRA PONTO -->
+		margin:0;
+		padding:0;
+}
+
+#centro{
+  width: 1018px; height: 498px; margin: 0 auto; overflow: hidden;
+  background:url(imagens/banner3.jpg) no-repeat center; margin-top: 20px;   /*ALTERA AQUI A IMAGEM CENTRAL, BANNER*/
+}
+#centroa{
+  width: 1108px; height: 498px; margin: 0 auto; overflow: hidden;
+  background:url(imagens/nv3.png) no-repeat center; margin-top: 20px;   /*ALTERA AQUI A IMAGEM CENTRAL, BANNER*/
+}
+#centrob{
+  width: 1108px; height: 498px; margin: 0 auto; overflow: hidden;
+  background:url(imagens/tr2.png) no-repeat center; margin-top: 20px;   /*ALTERA AQUI A IMAGEM CENTRAL, BANNER*/
+}
+#centroc{
+  width: 1108px; height: 498px; margin: 0 auto; overflow: hidden;
+  background:url(imagens/an1.jpg) no-repeat center; margin-top: 20px;   /*ALTERA AQUI A IMAGEM CENTRAL, BANNER*/
+}
+#conteudocentro{  /* CONDEUTO DENTRO DO BANNER*/
+  float: left;  width: 450px; margin-left: 30px;
+  color: black;
+
+}
+#divisormeio{
+  height: 30px;
+  background: #696969;       /*url(imagens/barra.jpg) repeat; */
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-family: Geogia, "Times New Roman", Times, serif; font-size: 22px; color: black ; font-weight: bolder; font-style: italic;
+}
+
+#fundoC{
+  overflow: hidden; background: #474747;
+}
+
+#conteudo, #janela {
+  width: 1018px; height: 800px;
+  margin: 0 auto;
+  color: white;
+}
+#imagemnv, #imagemtr, #imageman{
+  text-align: center;
+  float: left;
+  margin-left: 210px;
+}
+
+#janela{
+  overflow: hidden;
+  color: white;
+    width: 1100px;
+    height: 500px;
+}
+
+#janela #jogoa, #jogob, #jogoc{
+    width: 300px; height: 600px;
+    float: left;
+    color: white;
+
+}
+
+#jogoa {
+  margin-right: 40px; /*espaçamento a direita*/
+  margin-left: 60px;
+  background:url(imagens/nv2.jpg) no-repeat;
+
+}
+#conteudojogoa, #conteudojogob, #conteudojogoc{
+    margin-top: 200px;
+
+}
+#jogob {
+  margin-right: 40px; /*espaçamento a direita*/
+  background:url(imagens/tr1.jpg) no-repeat;
+}
+
+#jogoc {
+  margin-right: 30px; /*espaçamento a direita*/
+  background:url(imagens/d1.jpg) no-repeat;
+}
+
+
+#rodape{
+ overflow: hidden; width: 1018px; height: 50px; margin: 0 auto;
+ background: url(imagens/fundo.jpg) repeat;
+
+}
+#contato, #social{
+  float: left;
+}
+#social{
+  width: 200px; overflow: hidden;
+}
+#face{
+  margin-left: 410px;
+}
+#face, #you, #tw{
+width: 100px; height: 50px; float: left; margin-top: 15px;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menutext:link{
+  font-family: Geogia, "Times New Roman", Times, serif; color: white; text-decoration: none; font-size: 20px;
+}
+.menutext:visited{ /*QUANDO VISITADA */
+  font-family: Geogia, "Times New Roman", Times, serif; color: white; text-decoration: none; font-size: 20px;
+}
+.menutext:hover{ /* QUANDO PASSAR O MOUSE*/
+  font-family: Geogia, "Times New Roman", Times, serif; color:white; text-decoration: underline; font-size: 20px;
+}
+.text{
+  font-family: Geogia, "Times New Roman", Times, serif; color: white; text-decoration: none; font-size: 20px;
+}
+
+.fonteBranco20{
+  font-family: Geogia, "Times New Roman", Times, serif; font-size: 20px; color: white;
+}
+.fonteBranco25{
+  font-family: Geogia, "Times New Roman", Times, serif; font-size: 25px; color: white;
+}
+.fonteblack25{
+  font-family: Geogia, "Times New Roman", Times, serif; font-size: 22px; color: black ;
+}
